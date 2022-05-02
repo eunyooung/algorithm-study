@@ -7,7 +7,7 @@ class Solution {
         
         answer = new_id.toLowerCase();
         answer = answer.replaceAll("[^a-z0-9-_.]","");
-        answer = answer.replace("..",".");
+        
         while(true) {
             if (answer.startsWith(".")) {
                 answer = answer.substring(1, answer.length());
